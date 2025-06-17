@@ -36,13 +36,12 @@ const handleSubmit = async (ev) => {
                 <div className="mb-3">
                     <label className="form-label">ToDo List</label>
                     <input type="text" name ='todoTitle' value={todoData.title} onChange={(e)=> handleChange(e)} className="Form-control" />
-                    <div className="Form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
                     <label className="form-label">ToDo Status</label>
                     <input type="text" name='todoStatus' value={todoData.status} onChange={(e)=> handleChange(e)} className="Form-control" />
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-danger">Submit</button>
             </form>
         </>
     )
