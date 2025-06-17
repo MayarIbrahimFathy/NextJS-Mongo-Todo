@@ -29,13 +29,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/about" className="nav-link">
-                About
+              <Link href="/todo" className="nav-link">
+                Todos
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/todo" className="nav-link">
-                Todos
+              <Link href="/contact" className="nav-link">
+                Contact
               </Link>
             </li>
           </ul>
