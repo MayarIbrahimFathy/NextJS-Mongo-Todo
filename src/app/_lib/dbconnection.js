@@ -12,3 +12,4 @@ export async function dbConnection() {
     console.log(" Connection error:", error);
   }
 }
+
